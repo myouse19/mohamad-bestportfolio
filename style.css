@@ -12,7 +12,7 @@ body {
 
   ul {
     display: block;
-    list-style-type: square;
+    list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -20,20 +20,22 @@ body {
     padding-inline-start: 40px;
     text-align: center;
   }
-
-  header {
-    min-width: max-content;
-    min-height: 100px;
-    background-color: bisque;
-    line-height: 1;
-  }
-
- nav {
-    flex-flow: row;
+  nav {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    cursor: pointer;
+    text-decoration-color: rgb(255, 255, 255);
+    flex-flow: row;
     list-style: none;
-    text-decoration: m;
-    
+    margin: 0;
  }
+
+
+  header {
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+     }
+  
